@@ -1,0 +1,84 @@
+Follow these steps:
+
+● Run your kmeans.py file using 3 clusters on the 1953 and 2008 datasets
+  separately. Document your observations in your text file. Take note of how
+  the clusters change from 1953 to 2008. You will need to pay attention not
+  only to which countries are in clusters together but also to the Life
+  Expectancy and BirthRates for those clusters.
+
+  1953 Dataset:
+
+  Cluster 1: This cluster has a moderate number of countries (48-60) throughout the iterations.
+             The mean Life Expectancy is around 41 years, and the mean Birth Rate is around 55-56
+             per 1000 people. These countries seem to have moderate life expectancy and birth rates 
+             compared to other clusters.
+
+  Cluster 2: This cluster consistently contains around 48 countries in all iterations. The mean Life
+             Expectancy is very low, around 22 years, while the mean Birth Rate is the highest among 
+             all clusters, around 66 per 1000 people. These countries have significantly low life 
+             expectancy and high birth rates, indicating poor health and social conditions.
+
+  Cluster 3: Initially, this cluster has the highest number of countries (102), but the number decreases
+             to 88-89 in later iterations. The mean Life Expectancy is around 47 years, and the mean Birth
+             Rate is around 39-40 per 1000 people. These countries tend to have higher life expectancy and 
+             lower birth rates compared to the other clusters.
+
+  2008 Dataset:
+
+  Cluster 1: Initially, this cluster contains the highest number of countries (95), but the number decreases
+             to around 72-75 in later iterations. The mean Life Expectancy starts very low (around 18 years)
+             but increases slightly over iterations, reaching around 22 years. The mean Birth Rate is the 
+             highest among all clusters, starting at around 72 and decreasing slightly over iterations. These 
+             countries have extremely low life expectancy and very high birth rates, indicating regions facing
+             severe health and socio-economic challenges, similar to Cluster 2 in the 1953 dataset.
+
+  Cluster 2: This cluster consistently contains around 47 countries in all iterations. The mean Life Expectancy
+             is relatively high, starting at around 37 years and remaining stable over iterations. The mean Birth
+             Rate is moderate, starting at around 54-55 per 1000 people and showing slight fluctuations but 
+             remaining relatively stable. These countries seem to have moderate life expectancy and birth rates,
+             similar to Cluster 1 in the 1953 dataset.
+
+  Cluster 3: Initially, this cluster has the lowest number of countries (46), but the number increases to around 
+             77 in later iterations. The mean Life Expectancy starts very low (around 13 years) and increases 
+             slightly over iterations, reaching around 12 years. The mean Birth Rate starts very high (around 79) 
+             and decreases slightly over iterations, remaining above 76. These countries initially have extremely 
+             low life expectancy and very high birth rates, similar to Cluster 2 in the 1953 dataset.
+
+● Next, run the algorithm with 4 clusters on dataBoth.csv. Note any
+  observations in your text file. Which countries are moving up clusters?
+  How does the data from 2008 compare to the data from 1953? Are there
+  any 2008 countries that are in a cluster that is made up mostly of 1953
+  countries? Try and explain why. Are there any 1953 countries that are in a
+  cluster that is made up of mostly 2008 countries? Try and explain why in
+  your text file.
+
+  1. Cluster Characteristics:
+
+     - Cluster 1: Countries with the lowest life expectancy and highest birth rates.
+     - Cluster 2: Nations with relatively higher life expectancy but still exhibiting high birth rates.
+     - Cluster 3: Countries with moderate life expectancy and birth rates.
+     - Cluster 4: Nations with the highest life expectancy and relatively lower birth rates.
+
+  2. Changes Across Iterations:
+
+     - Mean life expectancy and birth rates stabilize across iterations, indicating convergence.
+     - The number of countries in each cluster may fluctuate slightly but generally remains consistent.
+
+  3. Comparison with 1953 and 2008:
+     - The clusters show a wider range of demographic indicators due to combined data from both years.
+     - Cluster composition resembles characteristics from both 1953 and 2008 datasets, reflecting changes over time.
+
+  4. Observations on Country Movement:
+
+     - Some countries may transition between clusters across iterations, reflecting demographic changes.
+     - Analyzing country movements can provide insights into evolving socio-economic factors.
+
+  5. Explanation for Cluster Composition:
+
+     - Factors such as economic development, healthcare access, and cultural norms influence cluster composition.
+     - Similar socio-economic profiles lead countries to cluster together based on shared characteristics.
+
+
+
+
+
